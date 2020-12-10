@@ -1,5 +1,7 @@
 # Cajero API
 Este es el backend del ejercicio del Cajero. Esta construido sobre la base de __FastAPI__, un framework bastante sencillo para esta labor. 
+
+## Ajusta para Heroku
 Este proyecto está diseñado para correr específicamente en Heroku. Para ello, es importante que usted ajuste en el archivo `main.py` el arreglo de `origins` válidos para __CORS__. En particular, debe agregar el nombre de la app en `Heroku` asociada al front-end del cajero, en este ejemplo está al app de `Heroku` del autor del presente repositorio. 
 
 ## Requerimientos
